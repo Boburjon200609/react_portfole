@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.redmi_note_12pro{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    gap:1.5%;
+}
+.redmi_note_12pro_text{
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    place-items: left;
+}
+    
+.redmi_note_12pro_img2{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url('./1.png');
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+.redmi_note_sotuv_button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+
+}
+.redmi_note_sotuv_button h1:hover{
+    text-decoration: underline;
+    cursor: help;
+}
+.redmi_note_12pro_img1{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-image: url('./2.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:1138px) {
+
+    .redmi_note_12pro{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 150vh;
+    }
+
+}
+
+

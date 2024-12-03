@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rdemi_shop{
+    width: 100%;
+    height: 110vh;
+    /* border: 1px solid black; */
+    background-color: rgb(247, 247, 247);
+    
+
+}
+.redmi_12c{
+    width: 600px;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-items: center;
+
+}
+.redmi_10c{
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+
+}
+.redmi_9a{
+    width: 350px;
+    height: 500px;
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    align-items: center;
+}
+.redmi_products{
+    display: flex;
+    gap: 20px;
+}
+.redmi_10c:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.redmi_12c:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.redmi_9a:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.redmi_12c_skidka{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}    
+.redmi_9a_skidka{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}    .redmi_10c_skidka{
+    width: 100%;
+    height: 30px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+}    
+.redmi_12c_nomi{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+.redmi_12c_sotish{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+.redmi_12c_img{
+    width: 300px;
+    height: 300px;
+    background-image: url('../assets/redmi12c.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    
+}
+.redmi_12c_img1{
+    width: 300px;
+    height: 300px;
+    background-image: url('../assets/redmi9c.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    place-items: center;
+}
+.redmi_12c_img2{
+    width: 300px;
+    height: 300px;
+    background-image: url('../assets/redmi9a.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.redmi_12c_pastgi_qismi{
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+}
+.rdemi_header{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    gap: 20px;
+
+}
+.redmi_12c_pastgi_text{
+    width: 100%;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(247, 247, 247);
+
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+}
+.redmi_12c_pastgi_box{
+    margin-top: 30px;
+
+}
+@media only screen and (max-width: 1500px){
+    .redmi_12c{
+        width: 600px;
+        height: 600px;
+        margin-top: 20px;
+
+    }
+    .redmi_10c{
+        width: 480px;
+        height: 480px;
+    }
+    .redmi_9a{
+        width: 480px;
+        height: 480px;
+    }
+    .rdemi_header{
+        width: 100%;
+        height: 230vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 1015px){
+    .redmi_10c{
+        width: 600px;
+        height: 500px;
+
+    }
+    .redmi_9a{
+        width: 600px;
+        height: 500px;
+    }
+    .rdemi_header{
+
+        width: 100%;
+        height: 340vh;
+    }
+    .redmi_products{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+}
+
+    

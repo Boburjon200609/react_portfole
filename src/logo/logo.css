@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Logo{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+}
+.logo_icon{
+    width: 45px;
+    height: 45px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.logo_text_name{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+}
+.logo_textlar{
+    width: 500px;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    place-items: center;
+    align-items: center;
+}
+.logo_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    gap: 20px;
+}
+.logo_login_text{
+    width: 600px;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.login_text{
+    width: 300px;
+    height: 60px;
+    /* border: 1px solid black; */
+    font-size: 8.5px;
+    color: rgb(66, 65, 65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    place-items: center;
+    font-size: 10px;
+    
+}
+.login_iconlar{
+    width: 250px;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    align-items: center;
+}
+
+.logo_textlar h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.login_iconlar button{
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.logo_textlar h1:active{
+    color: rgb(255, 111, 11);
+
+}
+.login_text h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.Лайфстайл h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.Управление h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.Контакты h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.Лайфстайл h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.Лайфстайл h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.Лайфстайл h1:hover{
+    color: rgb(255, 111, 11);
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+@media only screen and (max-width:1137px) {
+    .logo_text_name{
+        display: none;
+    }
+    .logo_textlar{
+        display: none;
+    }
+    .login_text{
+        display: none;
+    }
+    .logo_login_text{
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+

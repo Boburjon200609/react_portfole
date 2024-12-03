@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poco_img{
+    width: 100%;
+    height: 95vh;
+    background-image: url('../assets/pocofont.jpg');
+    background-repeat: no-repeat;
+    background-size: 110% 95% ;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+
+
+}
+.poco_cart{
+    width: 400px;
+    height: 300px;
+    /* border: 1px solid black; */
+    margin-right: -600px;
+}
+.poco_sotish_button{
+    display: flex;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.poco_sotish_button h1:hover{
+    text-decoration: underline;
+    cursor: help;
+
+}
+.poco_sotish_button button:hover{
+    background-color: rgb(147, 152, 158);
+}
+@media only screen and (max-width: 1500px){
+    .poco_cart{
+        margin-right: -100px;
+    }
+
+}
+@media only screen and (max-width: 621px){
+    .poco_cart{
+        margin-right: -0px;
+    }
+}
+
+

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.past_qisimi{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    margin-top: 320px;
+}
+
+@media only screen and (max-width: 653px){
+    .past_qisimi{
+        margin-top: 270%;
+    }
+    
+}
